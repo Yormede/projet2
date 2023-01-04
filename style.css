@@ -137,6 +137,167 @@ nav a:hover {
     margin: 10px;
 }
 
+.lodging {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueIcon {
+    color: #0065FC;
+    font-size: 12px;
+}
+
+.greystar {
+    color: #D9D9D9;
+    font-size: 12px;
+}
+
+.lodging section {
+    width: 64%;
+    height: 626px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.lodging section h2 {
+    margin: 40px 4% 30px 4%;
+    font-size: 18px;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 4% 10px 4%;
+}
+
+.card {
+    width: 31%;
+    height: 199px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(194, 194, 194);
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.card img {
+    object-fit: cover;
+    box-sizing: border-box;
+    border: solid 5px white ;
+    border-radius: 20px 20px 0 0 ;
+    width: 100%;
+    height: 124px;
+}
+
+.card div h4,.card div p, .card div div {
+    margin: 0px auto 2% 3%;
+}
+
+.card div h4, .popularContainer div h4 {
+    font-size: 14px;
+}
+
+.card div p, .popularContainer div p{
+    font-size: 12px;
+}
+
+.card:hover, .popularCard a:hover .lobbiescard a:hover {
+    box-shadow: 0 8px 16px 0 rgb(184, 184, 184);
+    transition: 200ms;
+}
+
+.more a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.more {
+    margin: 20px;
+}
+
+aside {
+    background-color: #F2F2F2;
+    width: 35%;
+    height: 626px;
+    border-radius: 20px;
+}
+
+.popularTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10% 10px 8%;
+    font-size: 12px;
+}
+
+.fa-chart-line {
+    font-size: 18px;
+}
+
+.popularCard {
+    margin: 10px 10% 20px 8%;
+}
+
+.popularCard a{
+    display: flex;
+    height: 144px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(185, 185, 185);
+    background: white;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0% 20px 0%;
+}
+
+.popularCard a img{
+    box-sizing: border-box;
+    object-fit: cover;
+    border: white 5px solid;
+    border-radius: 20px 0px 0px 20px;
+    width: 137px;
+    height: 100%;
+} 
+
+.popularContainer div h4, .popularContainer div p {
+    margin: 0% 5px 10px 0px;
+}
+
+.popularContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4% 0px 3% 3%;
+}
+
+.lobbiescard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lobbiescard a {
+    width: 23%;
+    height: 445px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+.lobbiescard a img {
+    width: 100%;
+    height: 389px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.lobbiescard a h4 {
+    margin: 4% 0 5% 3%;
+    color: black;
+}
 
 footer{
     background: #F2F2F2;
