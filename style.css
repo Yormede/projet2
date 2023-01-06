@@ -69,7 +69,6 @@ nav a:hover {
     background-color: #F2F2F2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
 }
 
 .searchButton input {
@@ -355,5 +354,141 @@ footer div ul{
 
     .filter ul {
     flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0px
+    }
+
+    .navBar h1 img {
+        padding-top: 0px;
+    }
+
+    .searchIcon {
+        display: block;
+        width: 50px;
+    }
+
+    .searchText {
+        display: none;
+    }
+
+    .navBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 14px;
+        width: 50%;
+        padding: 25px 0 ;
+        text-align: center;
+        border-top: none;
+        border-bottom: #F2F2F2 3px solid;
+    }
+
+    nav a:hover {
+        border-top: none;
+        border-bottom: #0065FC 3px solid;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .searchIntro {
+        margin-right: 20px;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .filter {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .filter ul {
+        width: 100%;
+    }
+
+    .filter ul li {
+        margin: 10px;
+        padding-bottom: 5px;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .lodging {
+        flex-direction: column-reverse;
+    }
+
+    aside {
+        height: 580px;
+        border-radius: 0;
+    }
+
+    .lodging section {
+        background-color:  white;
+    }
+
+    .popularCard a , .cardList a {
+        width: 100%;
+        margin: 5px 0 10px 0;
+    }
+
+    .popularCard a img {
+        width: 137px;
+    }
+
+    .cardList, .popularCard {
+        flex-direction: column;
+        margin: 0px 4% 0px 4%;
+    }
+
+    .lodging section {
+        margin: 0;
+        height: 1430px;
+    }
+
+    .lobbiescard {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .lobbies {
+        margin: 0px 4% 0px 4%;
+    }
+
+    .lobbies h2 {
+        margin: 20px 0;
+    }
+
+    .lobbiescard a {
+        width: 100%;
+        margin: 10px 0 ;
+        height: 190px;
+    }
+
+    .lobbiescard a img {
+        height: 134px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 500px;
+    }
+
+    footer div {
+        margin: 0 30px;
+    }
+
+    footer div li {
+        margin: 10px 0 ;
     }
 }
