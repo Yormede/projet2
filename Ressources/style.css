@@ -305,14 +305,14 @@ aside {
 }
 
 .lobbiescard a h4 {
-    margin: 4% 0 5% 3%;
+    margin: 4% 0 5% 4%;
     color: black;
 }
 
 footer{
     background: #F2F2F2;
     height: 225px;
-    margin-top: 61px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     padding-top: 2%;
@@ -352,8 +352,12 @@ footer div ul{
         width: 32%;
     }
 
-    aside, .lobbiescard a {
+    aside {
         height: 280px;
+    }
+
+    .lobbiescard a {
+        height: 267px;
     }
 
     .lobbiescard a img {
